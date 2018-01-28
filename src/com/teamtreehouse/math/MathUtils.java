@@ -29,9 +29,9 @@ public class MathUtils {
     }
 
     @Doc(
-            desc = "Calculates the distance between the given points",
-            params = {"Coordinates of one point", "Coordinates of another point"},
-            returnVal = "Calculates the distance between the given points"
+            desc = "Calculates the quadraticRoots among the given values",
+            params = {"First Value", "Second Value", "Third Value"},
+            returnVal = "The quadraticRoots among the given values"
     )
     public static Double[] quadraticRoots(int a, int b, int c) {
         return new Double[]{};
